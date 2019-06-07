@@ -1,0 +1,1229 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="1. Core">
+      <UniqueIdentifier>{5600a08f-1eab-4b27-9274-0a05fd999ceb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="0. STD">
+      <UniqueIdentifier>{466e0089-e434-4df0-9cf1-a74ace66dc51}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="1. Core\Manager">
+      <UniqueIdentifier>{199626dd-333c-4714-a33a-87bf080deddb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="1. Core\Core">
+      <UniqueIdentifier>{bd5ad54d-e1ec-4181-a895-d05f28078e68}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="1. Core\Func">
+      <UniqueIdentifier>{87e34689-07ce-4519-9cb5-18f500811264}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2. Actor">
+      <UniqueIdentifier>{891b3059-fbac-49b1-b2e1-ba4aeaaef7f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2. Actor\Base">
+      <UniqueIdentifier>{0fe0ac71-b794-4749-9482-ab1332f7c97b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3. State">
+      <UniqueIdentifier>{4a43079d-57a5-48e8-ba83-d8816b9010be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3. State\02. RoomState">
+      <UniqueIdentifier>{55134f0f-1075-429b-ad37-dc13b9f4e884}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3. State\01. TitleState">
+      <UniqueIdentifier>{c44d100b-7ff4-4d1e-8381-d108bc6fe38d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3. State\03. FarmState">
+      <UniqueIdentifier>{492ebb1c-7265-44e3-85a7-21fa8da63903}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3. State\00. StateBase">
+      <UniqueIdentifier>{b7a33764-306e-4c2f-84c9-2d17e4fad161}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3. State\00. StateBase\Global Actor">
+      <UniqueIdentifier>{3ce3d826-69c8-46ef-8cd3-40f728be8841}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3. State\01. TitleState\Actor">
+      <UniqueIdentifier>{b3cdefd5-f225-4a57-a548-c01b5d3550ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3. State\02. RoomState\Actor">
+      <UniqueIdentifier>{59472b8b-69bc-495e-9f71-6a7b82cb5f70}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3. State\03. FarmState\Actor">
+      <UniqueIdentifier>{45f054f9-5a3c-40cb-b4f8-0cfb98346074}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2. Actor\Collision">
+      <UniqueIdentifier>{3159a40d-3211-468a-8707-59cde3bc016c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3. State\05. MineState">
+      <UniqueIdentifier>{5ca2d414-ab36-4f73-8da3-944c770b4924}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3. State\06. StoreState">
+      <UniqueIdentifier>{646186df-946b-4cdf-9bd6-c3fd2ff40991}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3. State\05. MineState\Actor">
+      <UniqueIdentifier>{03b34d4a-0b9e-4a86-8a08-b8813aeffa83}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3. State\06. StoreState\Actor">
+      <UniqueIdentifier>{c55dd304-01bc-48bd-9e19-5658918175e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="1. Core\Manager\Resource">
+      <UniqueIdentifier>{f7742588-66f0-4ec4-a241-6fcd5b7f3695}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3. State\02. RoomState\BackGround">
+      <UniqueIdentifier>{2404b6b7-17fa-4aa2-b36d-1d42c3043a5a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3. State\03. FarmState\BackGround">
+      <UniqueIdentifier>{ec58769d-1700-4a21-9731-760d7f6ae646}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3. State\05. MineState\BackGround">
+      <UniqueIdentifier>{1ad5ce67-81e7-488a-9fda-5164fb75cb87}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3. State\06. StoreState\BackGround">
+      <UniqueIdentifier>{1735f5c4-4dcf-4936-8bac-d9e4be5ba369}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3. State\01. TitleState\BackGround">
+      <UniqueIdentifier>{e52dcccc-60db-4f34-b6db-2d4c944ed867}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3. State\04. TownState">
+      <UniqueIdentifier>{a599af80-0758-4118-ab23-e22350f88d78}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3. State\04. TownState\Actor">
+      <UniqueIdentifier>{02996fdb-073c-41aa-b561-e6568ec9a422}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3. State\04. TownState\BackGround">
+      <UniqueIdentifier>{870c1a8a-8bdb-4075-aba6-7f8d28ab7f29}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="1. Core\Manager\Actor">
+      <UniqueIdentifier>{7d26e8a8-da24-481a-adbb-d765b389c2fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="1. Core\Manager\File">
+      <UniqueIdentifier>{cdad44b4-e3f0-4d50-b509-3e07977a196b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="1. Core\Manager\Tool">
+      <UniqueIdentifier>{1035ca87-5015-401b-b028-2fe27e23de35}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3. State\00. StateBase\Global Actor\Player">
+      <UniqueIdentifier>{127bd69b-f241-4a35-83ab-629956489927}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3. State\00. StateBase\Global Actor\Player\Sub">
+      <UniqueIdentifier>{392502e4-5c7d-41af-a552-a0b336263f4f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3. State\00. StateBase\Global Actor\Item">
+      <UniqueIdentifier>{5976fbcb-8543-4199-9931-6de8833c592f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3. State\03. FarmState\Collision">
+      <UniqueIdentifier>{f58fe078-9f80-4261-943f-d214ca101cab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3. State\02. RoomState\Collision">
+      <UniqueIdentifier>{7357152a-a6f1-4977-94dd-76d925330547}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3. State\04. TownState\Collision">
+      <UniqueIdentifier>{1f740f8e-db53-4a3a-bf81-50884337c1a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3. State\05. MineState\Collision">
+      <UniqueIdentifier>{fc58d5f1-dab7-4339-8cab-c87fb6de700b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3. State\06. StoreState\Collision">
+      <UniqueIdentifier>{fadb1642-be73-4f8d-8157-aed016be1f68}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3. State\00. StateBase\Global Actor\Player\Sub\Inven">
+      <UniqueIdentifier>{e0b9d1c0-28db-4800-8ea7-7975cb28021d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3. State\00. StateBase\Global Actor\Player\Sub\UI">
+      <UniqueIdentifier>{ed3558ba-0e05-4d52-856d-7b803f9ecc11}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3. State\00. StateBase\Global Actor\Player\Sub\Render">
+      <UniqueIdentifier>{5fe8bcb2-2208-496c-bfaf-7bf298f033e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2. Actor\Render">
+      <UniqueIdentifier>{55e0e348-1c1f-4a6a-9303-7d0ac0fd4824}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2. Actor\Render\Single">
+      <UniqueIdentifier>{3f303d1b-9769-4653-9a23-d891f25d31ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2. Actor\Render\Animation">
+      <UniqueIdentifier>{e58277a4-1812-418d-baab-3f61f4ff14c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2. Actor\Render\Tile">
+      <UniqueIdentifier>{3ce8216d-cd08-4c71-95c3-93da3688ba36}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3. State\03. FarmState\Effect">
+      <UniqueIdentifier>{ee14e997-698c-4a1d-96cb-6be2bbc5624d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3. State\00. StateBase\Global Actor\Utility">
+      <UniqueIdentifier>{8f548615-bb61-4ab4-a934-0e959141cb4f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3. State\00. StateBase\Global Actor\Rayer">
+      <UniqueIdentifier>{60084089-d4e7-4011-a251-fc79cd28b680}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3. State\07. Town2State">
+      <UniqueIdentifier>{5353c82e-0e4e-4e01-ab9f-9b6298128fb4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3. State\07. Town2State\Actor">
+      <UniqueIdentifier>{7ca44a4b-c9bd-4573-82f4-25bcd27fc865}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3. State\08. CoopState">
+      <UniqueIdentifier>{5fb9e862-40b9-4288-897c-599bb1d352de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3. State\08. CoopState\Actor">
+      <UniqueIdentifier>{9c30d47d-3424-4a4b-a47c-71d339c0321d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3. State\07. Town2State\BackGround">
+      <UniqueIdentifier>{f4a0f996-d215-4a41-b86b-51343857a88b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3. State\08. CoopState\BackGround">
+      <UniqueIdentifier>{2987e8f2-0cae-4cca-87dc-7649f2d16c57}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3. State\07. Town2State\Collision">
+      <UniqueIdentifier>{cc274eb6-14db-4efc-9abc-f7c7247c0712}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3. State\08. CoopState\Collision">
+      <UniqueIdentifier>{d5926bbe-07ea-4f28-8f07-4b0e08466005}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3. State\08. CoopState\Effect">
+      <UniqueIdentifier>{0e69bd07-29be-4ea7-9798-b10010a91d7c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="1. Core\Manager\Sound">
+      <UniqueIdentifier>{88a53431-b29b-4d14-a8b1-598c4bd228f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3. State\10. ManiState">
+      <UniqueIdentifier>{ad165a60-7a19-4f5b-a615-974ecf4c1d9d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3. State\10. ManiState\Actor">
+      <UniqueIdentifier>{85ac969c-a481-4b5c-b75d-5f6fb8480ac9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3. State\10. ManiState\BackGround">
+      <UniqueIdentifier>{9f3ade3d-39ec-462f-9d05-6a755707c1e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3. State\10. ManiState\Collision">
+      <UniqueIdentifier>{ecfce940-797d-4919-902d-46aa07db1d31}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3. State\11. RobinState">
+      <UniqueIdentifier>{23f2adf9-df57-4786-9b0a-b7a4891ac88f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3. State\11. RobinState\Actor">
+      <UniqueIdentifier>{0b123080-f9f9-47d7-a070-5614b9ce6c74}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3. State\11. RobinState\BackGround">
+      <UniqueIdentifier>{16fa9da3-55a3-45a7-bb88-24fb5441bd02}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3. State\11. RobinState\Collision">
+      <UniqueIdentifier>{11a430f9-8de9-43d3-b5e8-7135dbeb4ed2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3. State\12. EditState">
+      <UniqueIdentifier>{6005061c-ed82-4cf9-b7dd-5a7638c6d68d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3. State\12. EditState\Actor">
+      <UniqueIdentifier>{01282c7f-0c83-4f37-b517-5afdfafb4d98}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3. State\12. EditState\BackGround">
+      <UniqueIdentifier>{6e799310-f682-4042-ac94-f490664a4f1c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3. State\09. BarnState">
+      <UniqueIdentifier>{a6b782aa-4242-433c-8c77-4166025d31ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3. State\09. BarnState\Actor">
+      <UniqueIdentifier>{127dfe04-44e8-40b9-bff8-02a09b4bd0cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3. State\09. BarnState\BackGround">
+      <UniqueIdentifier>{3960e51e-26f4-4860-8df5-084fed4495de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3. State\09. BarnState\Collision">
+      <UniqueIdentifier>{ad6c7aea-52cd-4f07-ae94-e6b5287fac60}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3. State\00. StateBase\Global Actor\Effect">
+      <UniqueIdentifier>{dbeaaf98-10eb-4f59-b3bc-bc17ea6a1762}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3. State\13. EndState">
+      <UniqueIdentifier>{2b2e45a3-ccde-4b5d-aae3-8bb7070f5dc2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3. State\13. EndState\Actor">
+      <UniqueIdentifier>{f34fa5eb-05bc-4d62-b055-e32b438a89f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3. State\13. EndState\BackGround">
+      <UniqueIdentifier>{e79c8366-49fb-4101-b398-100e7d61dead}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Resource.h">
+      <Filter>0. STD</Filter>
+    </ClInclude>
+    <ClInclude Include="SProject.h">
+      <Filter>0. STD</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>0. STD</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>0. STD</Filter>
+    </ClInclude>
+    <ClInclude Include="SCore.h">
+      <Filter>1. Core\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="TimeHelper.h">
+      <Filter>1. Core\Func</Filter>
+    </ClInclude>
+    <ClInclude Include="ActorBase.h">
+      <Filter>2. Actor\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="NameBase.h">
+      <Filter>2. Actor\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="UpdateBase.h">
+      <Filter>2. Actor\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="TitleState.h">
+      <Filter>3. State\01. TitleState</Filter>
+    </ClInclude>
+    <ClInclude Include="RoomState.h">
+      <Filter>3. State\02. RoomState</Filter>
+    </ClInclude>
+    <ClInclude Include="FarmState.h">
+      <Filter>3. State\03. FarmState</Filter>
+    </ClInclude>
+    <ClInclude Include="GameState.h">
+      <Filter>3. State\00. StateBase</Filter>
+    </ClInclude>
+    <ClInclude Include="ActorPosBase.h">
+      <Filter>2. Actor\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="ActorCollision.h">
+      <Filter>2. Actor\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="ActorRender.h">
+      <Filter>2. Actor\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="AniActorRender.h">
+      <Filter>2. Actor\Render\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="SingleActorRender.h">
+      <Filter>2. Actor\Render\Single</Filter>
+    </ClInclude>
+    <ClInclude Include="MineState.h">
+      <Filter>3. State\05. MineState</Filter>
+    </ClInclude>
+    <ClInclude Include="TownState.h">
+      <Filter>3. State\04. TownState</Filter>
+    </ClInclude>
+    <ClInclude Include="GameImage.h">
+      <Filter>1. Core\Manager\Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="ResourceMgr.h">
+      <Filter>1. Core\Manager\Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="GameStruct.h">
+      <Filter>1. Core\Func</Filter>
+    </ClInclude>
+    <ClInclude Include="GameSprite.h">
+      <Filter>1. Core\Manager\Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="RoomBack.h">
+      <Filter>3. State\02. RoomState\BackGround</Filter>
+    </ClInclude>
+    <ClInclude Include="FarmBack.h">
+      <Filter>3. State\03. FarmState\BackGround</Filter>
+    </ClInclude>
+    <ClInclude Include="TownBack.h">
+      <Filter>3. State\04. TownState\BackGround</Filter>
+    </ClInclude>
+    <ClInclude Include="MineBack.h">
+      <Filter>3. State\05. MineState\BackGround</Filter>
+    </ClInclude>
+    <ClInclude Include="StoreBack.h">
+      <Filter>3. State\06. StoreState\BackGround</Filter>
+    </ClInclude>
+    <ClInclude Include="TitleBack.h">
+      <Filter>3. State\01. TitleState\BackGround</Filter>
+    </ClInclude>
+    <ClInclude Include="GameMultiSprite.h">
+      <Filter>1. Core\Manager\Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="RoomBed.h">
+      <Filter>3. State\02. RoomState\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="TitleCloud.h">
+      <Filter>3. State\01. TitleState\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="StarTitle.h">
+      <Filter>3. State\01. TitleState\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="SecondCloud.h">
+      <Filter>3. State\01. TitleState\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionMgr.h">
+      <Filter>1. Core\Manager\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderMgr.h">
+      <Filter>1. Core\Manager\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="CameraMgr.h">
+      <Filter>1. Core\Manager\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="FileStream.h">
+      <Filter>1. Core\Manager\File</Filter>
+    </ClInclude>
+    <ClInclude Include="ReadStream.h">
+      <Filter>1. Core\Manager\File</Filter>
+    </ClInclude>
+    <ClInclude Include="EditState.h">
+      <Filter>3. State\12. EditState</Filter>
+    </ClInclude>
+    <ClInclude Include="Monster.h">
+      <Filter>3. State\05. MineState\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="TileMapEdit.h">
+      <Filter>3. State\12. EditState\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="EnterMgr.h">
+      <Filter>1. Core\Manager\Tool</Filter>
+    </ClInclude>
+    <ClInclude Include="MathMgr.h">
+      <Filter>1. Core\Manager\Tool</Filter>
+    </ClInclude>
+    <ClInclude Include="TimeMgr.h">
+      <Filter>1. Core\Manager\Tool</Filter>
+    </ClInclude>
+    <ClInclude Include="TileAim.h">
+      <Filter>3. State\12. EditState\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="TileActorRender.h">
+      <Filter>2. Actor\Render\Tile</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>3. State\00. StateBase\Global Actor\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Crops.h">
+      <Filter>3. State\03. FarmState\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="Rocks.h">
+      <Filter>3. State\03. FarmState\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="Soil.h">
+      <Filter>3. State\03. FarmState\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemMgr.h">
+      <Filter>3. State\00. StateBase\Global Actor\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="FarmDoor.h">
+      <Filter>3. State\03. FarmState\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="RoomDoor.h">
+      <Filter>3. State\02. RoomState\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="StoreDoor.h">
+      <Filter>3. State\06. StoreState\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="TownDoor.h">
+      <Filter>3. State\04. TownState\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="MineDoor.h">
+      <Filter>3. State\05. MineState\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="WriteStream.h">
+      <Filter>1. Core\Manager\File</Filter>
+    </ClInclude>
+    <ClInclude Include="RoomTile.h">
+      <Filter>3. State\02. RoomState\BackGround</Filter>
+    </ClInclude>
+    <ClInclude Include="FarmTile.h">
+      <Filter>3. State\03. FarmState\BackGround</Filter>
+    </ClInclude>
+    <ClInclude Include="TownTile.h">
+      <Filter>3. State\04. TownState\BackGround</Filter>
+    </ClInclude>
+    <ClInclude Include="StoreTile.h">
+      <Filter>3. State\06. StoreState\BackGround</Filter>
+    </ClInclude>
+    <ClInclude Include="MineTile.h">
+      <Filter>3. State\05. MineState\BackGround</Filter>
+    </ClInclude>
+    <ClInclude Include="ButtonMgr.h">
+      <Filter>1. Core\Manager\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="FirstTitle.h">
+      <Filter>3. State\01. TitleState</Filter>
+    </ClInclude>
+    <ClInclude Include="SecondTitle.h">
+      <Filter>3. State\01. TitleState</Filter>
+    </ClInclude>
+    <ClInclude Include="MainInButton.h">
+      <Filter>3. State\00. StateBase\Global Actor\Player\Sub\Inven</Filter>
+    </ClInclude>
+    <ClInclude Include="QuickInButton.h">
+      <Filter>3. State\00. StateBase\Global Actor\Player\Sub\Inven</Filter>
+    </ClInclude>
+    <ClInclude Include="Clock.h">
+      <Filter>3. State\00. StateBase\Global Actor\Player\Sub\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="HPBar.h">
+      <Filter>3. State\00. StateBase\Global Actor\Player\Sub\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="FullAlarm.h">
+      <Filter>3. State\00. StateBase\Global Actor\Player\Sub\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="HandItem.h">
+      <Filter>3. State\00. StateBase\Global Actor\Player\Sub\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="MainInvenBack.h">
+      <Filter>3. State\00. StateBase\Global Actor\Player\Sub\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="QuickInvenBack.h">
+      <Filter>3. State\00. StateBase\Global Actor\Player\Sub\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="SelectRender.h">
+      <Filter>3. State\00. StateBase\Global Actor\Player\Sub\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="TreeTop.h">
+      <Filter>3. State\03. FarmState\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="TreeBot.h">
+      <Filter>3. State\03. FarmState\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="DirtEffect.h">
+      <Filter>3. State\03. FarmState\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="HarvEffect.h">
+      <Filter>3. State\03. FarmState\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="RockEffect.h">
+      <Filter>3. State\03. FarmState\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="WaterEffect.h">
+      <Filter>3. State\03. FarmState\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="Haley.h">
+      <Filter>3. State\06. StoreState\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="StoreDask.h">
+      <Filter>3. State\06. StoreState\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="StoreMenu.h">
+      <Filter>3. State\06. StoreState\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="Marlon.h">
+      <Filter>3. State\04. TownState\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="TownStoreMenu.h">
+      <Filter>3. State\04. TownState\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="MineState5.h">
+      <Filter>3. State\05. MineState</Filter>
+    </ClInclude>
+    <ClInclude Include="MineState1.h">
+      <Filter>3. State\05. MineState</Filter>
+    </ClInclude>
+    <ClInclude Include="MineState2.h">
+      <Filter>3. State\05. MineState</Filter>
+    </ClInclude>
+    <ClInclude Include="MineState3.h">
+      <Filter>3. State\05. MineState</Filter>
+    </ClInclude>
+    <ClInclude Include="MineState4.h">
+      <Filter>3. State\05. MineState</Filter>
+    </ClInclude>
+    <ClInclude Include="Ladder.h">
+      <Filter>3. State\05. MineState\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="MineNum.h">
+      <Filter>3. State\05. MineState\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="InfoRender.h">
+      <Filter>3. State\06. StoreState\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="MouseBaby.h">
+      <Filter>3. State\00. StateBase\Global Actor\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="NumberActor.h">
+      <Filter>3. State\00. StateBase\Global Actor\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Brighten.h">
+      <Filter>3. State\00. StateBase\Global Actor\Rayer</Filter>
+    </ClInclude>
+    <ClInclude Include="Fade.h">
+      <Filter>3. State\00. StateBase\Global Actor\Rayer</Filter>
+    </ClInclude>
+    <ClInclude Include="SecondNumberActor.h">
+      <Filter>3. State\00. StateBase\Global Actor\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="OverPlayer.h">
+      <Filter>3. State\00. StateBase\Global Actor\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="ClockNumber.h">
+      <Filter>3. State\00. StateBase\Global Actor\Player\Sub\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Damage.h">
+      <Filter>3. State\00. StateBase\Global Actor\Player\Sub\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="MonsterDamage.h">
+      <Filter>3. State\00. StateBase\Global Actor\Player\Sub\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="MineTile1.h">
+      <Filter>3. State\05. MineState\BackGround</Filter>
+    </ClInclude>
+    <ClInclude Include="MineTile2.h">
+      <Filter>3. State\05. MineState\BackGround</Filter>
+    </ClInclude>
+    <ClInclude Include="MineTile3.h">
+      <Filter>3. State\05. MineState\BackGround</Filter>
+    </ClInclude>
+    <ClInclude Include="MineTile4.h">
+      <Filter>3. State\05. MineState\BackGround</Filter>
+    </ClInclude>
+    <ClInclude Include="MineTile5.h">
+      <Filter>3. State\05. MineState\BackGround</Filter>
+    </ClInclude>
+    <ClInclude Include="ManiState.h">
+      <Filter>3. State\10. ManiState</Filter>
+    </ClInclude>
+    <ClInclude Include="RobinState.h">
+      <Filter>3. State\11. RobinState</Filter>
+    </ClInclude>
+    <ClInclude Include="Town2State.h">
+      <Filter>3. State\07. Town2State</Filter>
+    </ClInclude>
+    <ClInclude Include="CoopState.h">
+      <Filter>3. State\08. CoopState</Filter>
+    </ClInclude>
+    <ClInclude Include="Town2Tile.h">
+      <Filter>3. State\07. Town2State\BackGround</Filter>
+    </ClInclude>
+    <ClInclude Include="CoopTile.h">
+      <Filter>3. State\08. CoopState\BackGround</Filter>
+    </ClInclude>
+    <ClInclude Include="ManiTile.h">
+      <Filter>3. State\10. ManiState\BackGround</Filter>
+    </ClInclude>
+    <ClInclude Include="RobinTile.h">
+      <Filter>3. State\11. RobinState\BackGround</Filter>
+    </ClInclude>
+    <ClInclude Include="Town2Back.h">
+      <Filter>3. State\07. Town2State\BackGround</Filter>
+    </ClInclude>
+    <ClInclude Include="CoopBack.h">
+      <Filter>3. State\08. CoopState\BackGround</Filter>
+    </ClInclude>
+    <ClInclude Include="ManiBack.h">
+      <Filter>3. State\10. ManiState\BackGround</Filter>
+    </ClInclude>
+    <ClInclude Include="RobinBack.h">
+      <Filter>3. State\11. RobinState\BackGround</Filter>
+    </ClInclude>
+    <ClInclude Include="StoreState.h">
+      <Filter>3. State\06. StoreState</Filter>
+    </ClInclude>
+    <ClInclude Include="ManiDoor.h">
+      <Filter>3. State\10. ManiState\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="RobinDoor.h">
+      <Filter>3. State\11. RobinState\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="CoopDoor.h">
+      <Filter>3. State\08. CoopState\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="Town2Door.h">
+      <Filter>3. State\07. Town2State\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="Fountain.h">
+      <Filter>3. State\07. Town2State\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="Lamp.h">
+      <Filter>3. State\07. Town2State\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="Mani.h">
+      <Filter>3. State\10. ManiState\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="Robin.h">
+      <Filter>3. State\11. RobinState\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimalStoreMenu.h">
+      <Filter>3. State\10. ManiState\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="CoopStoreMenu.h">
+      <Filter>3. State\11. RobinState\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="CoopRender.h">
+      <Filter>3. State\03. FarmState\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="Animal.h">
+      <Filter>3. State\08. CoopState\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="Imotion.h">
+      <Filter>3. State\08. CoopState\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="Egg.h">
+      <Filter>3. State\08. CoopState\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="GreenEffect.h">
+      <Filter>3. State\08. CoopState\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="RainbowEffect.h">
+      <Filter>3. State\08. CoopState\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="BoomEffect.h">
+      <Filter>3. State\08. CoopState\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundPlayer.h">
+      <Filter>1. Core\Manager\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="GameSound.h">
+      <Filter>1. Core\Manager\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="FirstTitleAni.h">
+      <Filter>3. State\01. TitleState\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="SecondTitleAni.h">
+      <Filter>3. State\01. TitleState\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="BarnRender.h">
+      <Filter>3. State\03. FarmState\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="BarnState.h">
+      <Filter>3. State\09. BarnState</Filter>
+    </ClInclude>
+    <ClInclude Include="BarnBack.h">
+      <Filter>3. State\09. BarnState\BackGround</Filter>
+    </ClInclude>
+    <ClInclude Include="BarnTile.h">
+      <Filter>3. State\09. BarnState\BackGround</Filter>
+    </ClInclude>
+    <ClInclude Include="BarnDoor.h">
+      <Filter>3. State\09. BarnState\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="BubbleEffect.h">
+      <Filter>3. State\00. StateBase\Global Actor\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="TwinkleEffect.h">
+      <Filter>3. State\00. StateBase\Global Actor\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="RockBoomEffect.h">
+      <Filter>3. State\00. StateBase\Global Actor\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="SelectEffect.h">
+      <Filter>3. State\00. StateBase\Global Actor\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="Sleeping.h">
+      <Filter>3. State\02. RoomState\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="EndState.h">
+      <Filter>3. State\13. EndState</Filter>
+    </ClInclude>
+    <ClInclude Include="EndBack.h">
+      <Filter>3. State\13. EndState\BackGround</Filter>
+    </ClInclude>
+    <ClInclude Include="EndCat.h">
+      <Filter>3. State\13. EndState\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="Final.h">
+      <Filter>3. State\13. EndState\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="EnergyAlarm.h">
+      <Filter>3. State\00. StateBase\Global Actor\Player\Sub\UI</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="SProject.cpp">
+      <Filter>0. STD</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>0. STD</Filter>
+    </ClCompile>
+    <ClCompile Include="SCore.cpp">
+      <Filter>1. Core\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="SCore_Run.cpp">
+      <Filter>1. Core\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="SCore_UserInit.cpp">
+      <Filter>1. Core\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="TimeHelper.cpp">
+      <Filter>1. Core\Func</Filter>
+    </ClCompile>
+    <ClCompile Include="ActorBase.cpp">
+      <Filter>2. Actor\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="NameBase.cpp">
+      <Filter>2. Actor\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="UpdateBase.cpp">
+      <Filter>2. Actor\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="TitleState.cpp">
+      <Filter>3. State\01. TitleState</Filter>
+    </ClCompile>
+    <ClCompile Include="RoomState.cpp">
+      <Filter>3. State\02. RoomState</Filter>
+    </ClCompile>
+    <ClCompile Include="FarmState.cpp">
+      <Filter>3. State\03. FarmState</Filter>
+    </ClCompile>
+    <ClCompile Include="GameState.cpp">
+      <Filter>3. State\00. StateBase</Filter>
+    </ClCompile>
+    <ClCompile Include="ActorPosBase.cpp">
+      <Filter>2. Actor\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="ActorCollision.cpp">
+      <Filter>2. Actor\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="ActorRender.cpp">
+      <Filter>2. Actor\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="AniActorRender.cpp">
+      <Filter>2. Actor\Render\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="SingleActorRender.cpp">
+      <Filter>2. Actor\Render\Single</Filter>
+    </ClCompile>
+    <ClCompile Include="MineState.cpp">
+      <Filter>3. State\05. MineState</Filter>
+    </ClCompile>
+    <ClCompile Include="StoreState.cpp">
+      <Filter>3. State\06. StoreState</Filter>
+    </ClCompile>
+    <ClCompile Include="TownState.cpp">
+      <Filter>3. State\04. TownState</Filter>
+    </ClCompile>
+    <ClCompile Include="GameImage.cpp">
+      <Filter>1. Core\Manager\Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="ResourceMgr.cpp">
+      <Filter>1. Core\Manager\Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="GameStruct.cpp">
+      <Filter>1. Core\Func</Filter>
+    </ClCompile>
+    <ClCompile Include="GameSprite.cpp">
+      <Filter>1. Core\Manager\Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="RoomBack.cpp">
+      <Filter>3. State\02. RoomState\BackGround</Filter>
+    </ClCompile>
+    <ClCompile Include="FarmBack.cpp">
+      <Filter>3. State\03. FarmState\BackGround</Filter>
+    </ClCompile>
+    <ClCompile Include="TownBack.cpp">
+      <Filter>3. State\04. TownState\BackGround</Filter>
+    </ClCompile>
+    <ClCompile Include="MineBack.cpp">
+      <Filter>3. State\05. MineState\BackGround</Filter>
+    </ClCompile>
+    <ClCompile Include="StoreBack.cpp">
+      <Filter>3. State\06. StoreState\BackGround</Filter>
+    </ClCompile>
+    <ClCompile Include="TitleBack.cpp">
+      <Filter>3. State\01. TitleState\BackGround</Filter>
+    </ClCompile>
+    <ClCompile Include="GameMultiSprite.cpp">
+      <Filter>1. Core\Manager\Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="RoomBed.cpp">
+      <Filter>3. State\02. RoomState\Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="TitleCloud.cpp">
+      <Filter>3. State\01. TitleState\Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="StarTitle.cpp">
+      <Filter>3. State\01. TitleState\Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="SecondCloud.cpp">
+      <Filter>3. State\01. TitleState\Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="CollisionMgr.cpp">
+      <Filter>1. Core\Manager\Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderMgr.cpp">
+      <Filter>1. Core\Manager\Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="CameraMgr.cpp">
+      <Filter>1. Core\Manager\Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="FileStream.cpp">
+      <Filter>1. Core\Manager\File</Filter>
+    </ClCompile>
+    <ClCompile Include="ReadStream.cpp">
+      <Filter>1. Core\Manager\File</Filter>
+    </ClCompile>
+    <ClCompile Include="EditState.cpp">
+      <Filter>3. State\12. EditState</Filter>
+    </ClCompile>
+    <ClCompile Include="Monster.cpp">
+      <Filter>3. State\05. MineState\Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="TileMapEdit.cpp">
+      <Filter>3. State\12. EditState\Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="EnterMgr.cpp">
+      <Filter>1. Core\Manager\Tool</Filter>
+    </ClCompile>
+    <ClCompile Include="MathMgr.cpp">
+      <Filter>1. Core\Manager\Tool</Filter>
+    </ClCompile>
+    <ClCompile Include="TimeMgr.cpp">
+      <Filter>1. Core\Manager\Tool</Filter>
+    </ClCompile>
+    <ClCompile Include="TileAim.cpp">
+      <Filter>3. State\12. EditState\Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="TileActorRender.cpp">
+      <Filter>2. Actor\Render\Tile</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>3. State\00. StateBase\Global Actor\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerState.cpp">
+      <Filter>3. State\00. StateBase\Global Actor\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Crops.cpp">
+      <Filter>3. State\03. FarmState\Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="Rocks.cpp">
+      <Filter>3. State\03. FarmState\Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="Soil.cpp">
+      <Filter>3. State\03. FarmState\Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="ItemMgr.cpp">
+      <Filter>3. State\00. StateBase\Global Actor\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="FarmDoor.cpp">
+      <Filter>3. State\03. FarmState\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="RoomDoor.cpp">
+      <Filter>3. State\02. RoomState\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="StoreDoor.cpp">
+      <Filter>3. State\06. StoreState\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="TownDoor.cpp">
+      <Filter>3. State\04. TownState\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="MineDoor.cpp">
+      <Filter>3. State\05. MineState\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="WriteStream.cpp">
+      <Filter>1. Core\Manager\File</Filter>
+    </ClCompile>
+    <ClCompile Include="RoomTile.cpp">
+      <Filter>3. State\02. RoomState\BackGround</Filter>
+    </ClCompile>
+    <ClCompile Include="FarmTile.cpp">
+      <Filter>3. State\03. FarmState\BackGround</Filter>
+    </ClCompile>
+    <ClCompile Include="TownTile.cpp">
+      <Filter>3. State\04. TownState\BackGround</Filter>
+    </ClCompile>
+    <ClCompile Include="MineTile.cpp">
+      <Filter>3. State\05. MineState\BackGround</Filter>
+    </ClCompile>
+    <ClCompile Include="StoreTile.cpp">
+      <Filter>3. State\06. StoreState\BackGround</Filter>
+    </ClCompile>
+    <ClCompile Include="ButtonMgr.cpp">
+      <Filter>1. Core\Manager\Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="FirstTitle.cpp">
+      <Filter>3. State\01. TitleState</Filter>
+    </ClCompile>
+    <ClCompile Include="SecondTitle.cpp">
+      <Filter>3. State\01. TitleState</Filter>
+    </ClCompile>
+    <ClCompile Include="MainInButton.cpp">
+      <Filter>3. State\00. StateBase\Global Actor\Player\Sub\Inven</Filter>
+    </ClCompile>
+    <ClCompile Include="QuickInButton.cpp">
+      <Filter>3. State\00. StateBase\Global Actor\Player\Sub\Inven</Filter>
+    </ClCompile>
+    <ClCompile Include="Clock.cpp">
+      <Filter>3. State\00. StateBase\Global Actor\Player\Sub\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="HPBar.cpp">
+      <Filter>3. State\00. StateBase\Global Actor\Player\Sub\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="FullAlarm.cpp">
+      <Filter>3. State\00. StateBase\Global Actor\Player\Sub\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="HandItem.cpp">
+      <Filter>3. State\00. StateBase\Global Actor\Player\Sub\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="MainInvenBack.cpp">
+      <Filter>3. State\00. StateBase\Global Actor\Player\Sub\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="QuickInvenBack.cpp">
+      <Filter>3. State\00. StateBase\Global Actor\Player\Sub\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="SelectRender.cpp">
+      <Filter>3. State\00. StateBase\Global Actor\Player\Sub\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="TreeTop.cpp">
+      <Filter>3. State\03. FarmState\Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="TreeBot.cpp">
+      <Filter>3. State\03. FarmState\Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="DirtEffect.cpp">
+      <Filter>3. State\03. FarmState\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="HarvEffect.cpp">
+      <Filter>3. State\03. FarmState\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="RockEffect.cpp">
+      <Filter>3. State\03. FarmState\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="WaterEffect.cpp">
+      <Filter>3. State\03. FarmState\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="Haley.cpp">
+      <Filter>3. State\06. StoreState\Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="StoreDask.cpp">
+      <Filter>3. State\06. StoreState\Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="StoreMenu.cpp">
+      <Filter>3. State\06. StoreState\Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="Marlon.cpp">
+      <Filter>3. State\04. TownState\Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="TownStoreMenu.cpp">
+      <Filter>3. State\04. TownState\Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="MineState5.cpp">
+      <Filter>3. State\05. MineState</Filter>
+    </ClCompile>
+    <ClCompile Include="MineState1.cpp">
+      <Filter>3. State\05. MineState</Filter>
+    </ClCompile>
+    <ClCompile Include="MineState2.cpp">
+      <Filter>3. State\05. MineState</Filter>
+    </ClCompile>
+    <ClCompile Include="MineState3.cpp">
+      <Filter>3. State\05. MineState</Filter>
+    </ClCompile>
+    <ClCompile Include="MineState4.cpp">
+      <Filter>3. State\05. MineState</Filter>
+    </ClCompile>
+    <ClCompile Include="Ladder.cpp">
+      <Filter>3. State\05. MineState\Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="MineNum.cpp">
+      <Filter>3. State\05. MineState\Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="InfoRender.cpp">
+      <Filter>3. State\06. StoreState\Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="MouseBaby.cpp">
+      <Filter>3. State\00. StateBase\Global Actor\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="NumberActor.cpp">
+      <Filter>3. State\00. StateBase\Global Actor\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="Brighten.cpp">
+      <Filter>3. State\00. StateBase\Global Actor\Rayer</Filter>
+    </ClCompile>
+    <ClCompile Include="Fade.cpp">
+      <Filter>3. State\00. StateBase\Global Actor\Rayer</Filter>
+    </ClCompile>
+    <ClCompile Include="SecondNumberActor.cpp">
+      <Filter>3. State\00. StateBase\Global Actor\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="OverPlayer.cpp">
+      <Filter>3. State\00. StateBase\Global Actor\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="ClockNumber.cpp">
+      <Filter>3. State\00. StateBase\Global Actor\Player\Sub\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Damage.cpp">
+      <Filter>3. State\00. StateBase\Global Actor\Player\Sub\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="MonsterDamage.cpp">
+      <Filter>3. State\00. StateBase\Global Actor\Player\Sub\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="MineTile1.cpp">
+      <Filter>3. State\05. MineState\BackGround</Filter>
+    </ClCompile>
+    <ClCompile Include="MineTile2.cpp">
+      <Filter>3. State\05. MineState\BackGround</Filter>
+    </ClCompile>
+    <ClCompile Include="MineTile3.cpp">
+      <Filter>3. State\05. MineState\BackGround</Filter>
+    </ClCompile>
+    <ClCompile Include="MineTile4.cpp">
+      <Filter>3. State\05. MineState\BackGround</Filter>
+    </ClCompile>
+    <ClCompile Include="MineTile5.cpp">
+      <Filter>3. State\05. MineState\BackGround</Filter>
+    </ClCompile>
+    <ClCompile Include="ManiState.cpp">
+      <Filter>3. State\10. ManiState</Filter>
+    </ClCompile>
+    <ClCompile Include="RobinState.cpp">
+      <Filter>3. State\11. RobinState</Filter>
+    </ClCompile>
+    <ClCompile Include="Town2State.cpp">
+      <Filter>3. State\07. Town2State</Filter>
+    </ClCompile>
+    <ClCompile Include="CoopState.cpp">
+      <Filter>3. State\08. CoopState</Filter>
+    </ClCompile>
+    <ClCompile Include="Town2Tile.cpp">
+      <Filter>3. State\07. Town2State\BackGround</Filter>
+    </ClCompile>
+    <ClCompile Include="CoopTile.cpp">
+      <Filter>3. State\08. CoopState\BackGround</Filter>
+    </ClCompile>
+    <ClCompile Include="ManiTile.cpp">
+      <Filter>3. State\10. ManiState\BackGround</Filter>
+    </ClCompile>
+    <ClCompile Include="RobinTile.cpp">
+      <Filter>3. State\11. RobinState\BackGround</Filter>
+    </ClCompile>
+    <ClCompile Include="Town2Back.cpp">
+      <Filter>3. State\07. Town2State\BackGround</Filter>
+    </ClCompile>
+    <ClCompile Include="CoopBack.cpp">
+      <Filter>3. State\08. CoopState\BackGround</Filter>
+    </ClCompile>
+    <ClCompile Include="ManiBack.cpp">
+      <Filter>3. State\10. ManiState\BackGround</Filter>
+    </ClCompile>
+    <ClCompile Include="RobinBack.cpp">
+      <Filter>3. State\11. RobinState\BackGround</Filter>
+    </ClCompile>
+    <ClCompile Include="ManiDoor.cpp">
+      <Filter>3. State\10. ManiState\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="RobinDoor.cpp">
+      <Filter>3. State\11. RobinState\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="CoopDoor.cpp">
+      <Filter>3. State\08. CoopState\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="Town2Door.cpp">
+      <Filter>3. State\07. Town2State\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="Fountain.cpp">
+      <Filter>3. State\07. Town2State\Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="Lamp.cpp">
+      <Filter>3. State\07. Town2State\Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="Mani.cpp">
+      <Filter>3. State\10. ManiState\Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="Robin.cpp">
+      <Filter>3. State\11. RobinState\Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimalStoreMenu.cpp">
+      <Filter>3. State\10. ManiState\Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="CoopStoreMenu.cpp">
+      <Filter>3. State\11. RobinState\Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="CoopRender.cpp">
+      <Filter>3. State\03. FarmState\Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="Animal.cpp">
+      <Filter>3. State\08. CoopState\Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="Imotion.cpp">
+      <Filter>3. State\08. CoopState\Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="Egg.cpp">
+      <Filter>3. State\08. CoopState\Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="GreenEffect.cpp">
+      <Filter>3. State\08. CoopState\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="RainbowEffect.cpp">
+      <Filter>3. State\08. CoopState\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="BoomEffect.cpp">
+      <Filter>3. State\08. CoopState\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundPlayer.cpp">
+      <Filter>1. Core\Manager\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="GameSound.cpp">
+      <Filter>1. Core\Manager\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="FirstTitleAni.cpp">
+      <Filter>3. State\01. TitleState\Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="SecondTitleAni.cpp">
+      <Filter>3. State\01. TitleState\Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="BarnRender.cpp">
+      <Filter>3. State\03. FarmState\Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="BarnState.cpp">
+      <Filter>3. State\09. BarnState</Filter>
+    </ClCompile>
+    <ClCompile Include="BarnBack.cpp">
+      <Filter>3. State\09. BarnState\BackGround</Filter>
+    </ClCompile>
+    <ClCompile Include="BarnTile.cpp">
+      <Filter>3. State\09. BarnState\BackGround</Filter>
+    </ClCompile>
+    <ClCompile Include="BarnDoor.cpp">
+      <Filter>3. State\09. BarnState\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="BubbleEffect.cpp">
+      <Filter>3. State\00. StateBase\Global Actor\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="TwinkleEffect.cpp">
+      <Filter>3. State\00. StateBase\Global Actor\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="RockBoomEffect.cpp">
+      <Filter>3. State\00. StateBase\Global Actor\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="SelectEffect.cpp">
+      <Filter>3. State\00. StateBase\Global Actor\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="Sleeping.cpp">
+      <Filter>3. State\02. RoomState\Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="EndState.cpp">
+      <Filter>3. State\13. EndState</Filter>
+    </ClCompile>
+    <ClCompile Include="EndBack.cpp">
+      <Filter>3. State\13. EndState\BackGround</Filter>
+    </ClCompile>
+    <ClCompile Include="EndCat.cpp">
+      <Filter>3. State\13. EndState\Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="Final.cpp">
+      <Filter>3. State\13. EndState\Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="EnergyAlarm.cpp">
+      <Filter>3. State\00. StateBase\Global Actor\Player\Sub\UI</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="SProject.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="SProject.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="icon1.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="icon2.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="icon3.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+</Project>
